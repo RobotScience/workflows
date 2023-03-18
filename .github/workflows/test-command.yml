@@ -2,7 +2,7 @@ name: test-commands
 run-name: ${{ github.actor }} is learning GitHub Actions
 on: [push]
 jobs:
-  check-bats-version:
+  run-commands:
     runs-on: ubuntu-latest
     steps:
       - run: whoami
